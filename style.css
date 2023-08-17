@@ -1,0 +1,50 @@
+
+        
+    body{
+        background-image:url("bgrid.jpg");
+        text-align: center;
+        }
+    html{
+height: 100%;
+
+    }
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing:3px;
+      
+        
+        }
+        #space{
+            border-bottom-style:dotted;
+            border-width: 5px;
+            padding: 40px;
+
+        }
+        #nextpage{
+            border-style:onset;
+            background-color: white;
+            border-color:lightsteelblue ;
+        }
+       
+         #white{
+background-color: white;
+width: 150px;
+height: 40px;
+         }
+
+         #username{
+            width: 80%;
+         }
+         #password{
+            width: 80%;
+         }
+
+         #createname{
+            width: 80%;
+         }
+         #createpassword{
+            width: 80%;
+         }
+
+        
+   

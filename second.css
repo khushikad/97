@@ -1,0 +1,96 @@
+body{
+        background-image:url("bgrid.jpg");
+        
+        }
+
+html{
+height: 100%;
+
+
+}
+
+h1{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing:3px;
+}
+
+#title{
+    padding:40px;
+border-bottom-style:dotted ;
+border-width: 5px;
+text-align: center;
+
+} 
+
+
+#calendar{
+height:150px ;
+width:150px;
+font-size: large;
+background-color: white;
+margin-top: 10px;
+border-style:onset;
+border-width:7px;
+border-color:lightsteelblue ;
+margin-right:100px;
+}
+
+
+#notes{
+    height:150px ;
+    width:150px;
+    font-size: large;
+    background-color: white;
+    margin-top: 10px;
+    border-style:onset;
+    border-width:7px;
+    border-color:lightsteelblue ;
+    margin-right: 0px;
+
+    }
+    #todo{
+        height:150px ;
+        width:150px;
+        font-size: large;
+        background-color: white;
+        margin-top: 10px;
+        border-style:onset;
+        border-width:7px;
+        border-color:lightsteelblue ;
+      margin-left: 100px;
+   
+        }
+
+
+        #calendarimg{
+height:97px;
+
+
+
+        }
+        #notesimg{
+height: 100px;
+
+        }
+
+        #todoimg{
+height: 100px;
+
+        }
+
+ #buttonsection{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+   right: 28%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+
+} 
+#logout{
+        border-style:onset;
+        background-color: white;
+        border-color:lightsteelblue ;
+
+}

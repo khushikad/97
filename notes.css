@@ -1,0 +1,72 @@
+
+
+body{
+    background-image:url("bgrid.jpg");
+    
+    }
+
+   
+ #mycanvas{
+    background-color: white;
+    border-style:dashed;
+    border-width: 10px;
+    height: 500px;
+    width : 900px;
+
+    }
+
+
+#red{
+background-color: red;
+width: 82px;
+height: 82px;
+}
+
+#orange{
+    background-color: orange;
+    width: 82px;
+    height: 82px;
+
+}
+#yellow{
+    background-color: yellow;
+    width: 82px;
+    height: 82px;
+
+}
+#green{
+    background-color: green;
+    width: 82px;
+    height: 82px;
+
+}
+#blue{
+    background-color: blue;
+    width: 82px;
+    height: 82px;
+
+}
+#purple{
+    background-color: purple;
+    width: 82px;
+    height: 82px;
+
+}
+#pink{
+    background-color: magenta;
+    width: 82px;
+    height: 82px;
+
+}
+#black{
+    background-color: black;
+    width: 82px;
+    height: 82px;
+
+}
+
+#eraser{
+    width: 82px;
+    height: 82px;
+background-image:url("eraser.jpg") ;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+   <center> 
+    <h1>Welcome to Calendar</h1> <button id="logout" onclick="logout()">Logout</button>
+    <br>  <br>  <br>  <br>  <br>  <br>  <br>  
+    <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
+    <span id="output" style="text-align:left; margin-bottom: 70px;">
+    </span>
+    <center>
+
+        <div class="divmessage">
+            <h4>Post: </h4>
+           <span class="textboxes"><input id="send" class="form-control" placeholder="Write your message here" type="text">
+           <input id="date" class="form-control" placeholder="Write the date in this form 00/00/00" type="text">
+        </span>
+
+            <br>
+            <button id="sendbutton" onclick="send()">post</button> 
+        </div>
+
+    </center>
+
+</center>
+    
+    <script src="calendar.js"></script>
+</body>
+</html>

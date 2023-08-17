@@ -1,0 +1,30 @@
+.divmessage{
+background-color:black;
+padding:10px;
+
+}
+
+body{
+background-image:url("bgrid.jpg");
+
+}
+#send{
+
+    width: 40%;
+}
+
+h4{
+color: lightblue;
+
+}
+
+#date{
+width:40%;
+
+}
+
+.textboxes {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+  }
